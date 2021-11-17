@@ -1,0 +1,34 @@
+{
+  "name": "nodetifications",
+  "version": "0.0.1",
+  "description": "Notifications made easy in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParadoxInfinite/nodetifications.git"
+  },
+  "keywords": [
+    "notifications",
+    "node",
+    "gupshup"
+  ],
+  "types": "./types/index.d.ts",
+  "files": [
+    "index.js",
+    "types/index.d.ts",
+    "utils/errors.js"
+  ],
+  "author": "Samarth Kulkarni",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ParadoxInfinite/nodetifications/issues"
+  },
+  "homepage": "https://github.com/ParadoxInfinite/nodetifications#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0"
+  }
+}
